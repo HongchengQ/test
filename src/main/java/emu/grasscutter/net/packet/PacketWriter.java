@@ -68,7 +68,7 @@ public class PacketWriter {
     public void writeInt16(int i) {
         // Signed short
         baos.write((byte) i);
-        baos.write((byte) (i >>> 8));
+        baos.write((byte) (i >>> 8));1
     }
 
     public void writeUint32(int i) {
